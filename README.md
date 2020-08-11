@@ -24,9 +24,10 @@ npm i --s netlify-plugin-html-validate
 The following parameters can be used for `plugin.inputs`
 
 | Parameter | Description                                                                                                                  | required | default |
-|-----------|------------------------------------------------------------------------------------------------------------------------------|----------|---------|
+| --------- | ---------------------------------------------------------------------------------------------------------------------------- | -------- | ------- |
 | `ext`     | The file-name extension that identifies HTML files                                                                           | no       | `html`  |
 | `config`  | Configuration for `html-validate`; e.g. `.htmlvalidate.json`. If left blank, `html-validate`'s default options will be used. | no       |         |
+| `dir`     | specify the directory that use html-validate. use ',' to specify multiple directory. the pass is from publish directory.     | no       |         |
 
 ### Configure validation rules for `html-validate`
 
